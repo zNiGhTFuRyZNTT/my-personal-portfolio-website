@@ -1,3 +1,3 @@
 import LandingPage from './LandingPage'
-
-export { LandingPage }
+import NotFound from './NotFound'
+export { LandingPage, NotFound }
