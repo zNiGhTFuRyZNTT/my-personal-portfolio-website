@@ -62,12 +62,6 @@ const SkillsRating = ({inView, windowSize}) => {
     )
 }
  
-function getWindowSize() {
-    const {innerWidth, innerHeight} = window;
-    return {innerWidth, innerHeight};
-}
-  
-
 
 
 export default SkillsRating;

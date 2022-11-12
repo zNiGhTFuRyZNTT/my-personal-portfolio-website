@@ -19,7 +19,7 @@ import useIntersection from '../../hooks/useIntersection'
 
 
 const LandingPage = () => {
-    const [greetings, setGreetings] = useState(['Hello friend,','Welcome to my portfolio.'])
+    const greetings = ['Hello friend,','Welcome to my portfolio.']
     const greetingsRef = useRef()
     const greetingInView = useIntersection(greetingsRef)
 

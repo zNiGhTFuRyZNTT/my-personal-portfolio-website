@@ -4,32 +4,12 @@ import './index.scss'
 import { CopyBlock, dracula } from "react-code-blocks";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faAngular,
-    faCss3,
-    faGitAlt,
-    faHtml5,
-    faJsSquare,
-    faReact,
     faGithub,
-    faGithubSquare,
-    faGithubAlt,
     faInstagram,
     faLinkedin,
-    faTelegram,
 
 } from "@fortawesome/free-brands-svg-icons";
 
-
-
-const styledWord = (word) => {
-    return (
-        <p className="cert-header mb-4 text-xl w-10 font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
-            <span class="underline underline-offset-3 decoration-8 decoration-blue-600">
-                {word}
-            </span>
-        </p>
-    )
-}
 
 const InfoCard = ({ inView }) => {
 return (
