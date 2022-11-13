@@ -32,12 +32,12 @@ return (
                         Melbourne, Australia
                     </div>
                     <div className="mb-2 text-blueGray-600 mt-10">
-                        <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400">Backgroound Information</i>
+                        <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400">Background Information</i>
                         {/* ["Javascript", "Python"].forEach(language =&gt; `$&#123;language&#125; Developer` ) */}
                         <div className="codeblock">
                             <CopyBlock
                                 language="js"
-                                text={'//Work Availabality\n let availabe = true \n// Programming Languages\n ["Javascript", "Python"].forEach(language => `${language} Developer`)\n // Spoken Languages\n const spokenLangs = ["Perisan", "English"]\n // Work and Eduaction\n let [educationStatus, workStatus] = ["Recent graduate", "Unemployed"]\n // Contact Deatils \n const contactDatils = {\nphoneNum: "+61403444370",\n email: "arminamiri11228@gmail.com"\n}\n // Contact me through phone or email for any inquiries or job oportunities'}
+                                text={'//Work Availability\n let available = true \n// Programming Languages\n ["Javascript", "Python"].forEach(language => `${language} Developer`)\n // Spoken Languages\n const spokenLangs = ["Persian", "English"]\n // Work and Eduaction\n let [educationStatus, workStatus] = ["Recent graduate", "Unemployed"]\n // Contact Details \n const contactDetails = {\nphoneNum: "+61403444370",\n email: "arminamiri11228@gmail.com"\n}\n // Contact me through phone or email for any inquiries or job oportunities'}
                                 showLineNumbers={true}
                                 theme={dracula}
                                 wrapLines={true}
